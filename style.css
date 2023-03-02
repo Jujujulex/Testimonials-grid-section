@@ -1,0 +1,75 @@
+.general{
+   
+  display: flex;  
+}
+
+.one{
+
+    display: flex;
+    gap: 1rem;
+}
+.robert{
+    border: 3px solid hsl(265, 58%, 75%);;
+    margin-left: 1em;
+     border-radius: 3em;
+     height: 30px;
+      margin-top: 15px; 
+      font-size: 15px
+      
+      
+
+}
+.bayo{
+    background-color: hsl(263, 55%, 52%);
+    height: 15rem;
+    width: 30rem;
+    border-radius: 1em;
+    padding-left: 1rem;
+    padding-left: 1rem;
+    font-family: 'League Spartan', sans-serif;
+    
+    
+}
+.ro{
+
+ font-size: 15px;   
+ color: white;
+ line-height: 19px;
+}
+.ro2{
+
+    font-size: 9px;
+    color: rgb(189, 189, 219);
+    line-height: 14px;
+
+}
+.daniel{
+
+    color: white;
+}
+
+.da{
+line-height: -6em;
+  
+}
+
+.ry{
+    line-height: 2px;
+}
+.po{
+    color: rgb(148, 154, 212);
+    size-adjust: 20em;
+}
+
+.abram{
+    background-color:  hsl(219, 29%, 14%);
+    height: 15rem;
+    width: 30rem;
+    border-radius: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'League Spartan', sans-serif;
+
+   
+}
+
