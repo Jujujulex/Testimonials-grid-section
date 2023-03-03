@@ -1,75 +1,181 @@
-.general{
-   
-  display: flex;  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  background-color: hsl(0, 0%, 81%);
+  height: 100hv;
+  width: -webkit-fit-content;
+  width: fit-content;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0 auto;
+}
+.container {
+  margin: 5rem;
+}
+.one {
+  display: flex;
+  gap: 1rem;
+}
+.robert {
+  border: 3px solid hsl(265, 58%, 75%);
+  margin-left: 1em;
+  border-radius: 3em;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.bayo {
+  background-color: hsl(263, 55%, 52%);
+  max-height: 19rem;
+  width: 30rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-left: 1rem;
+}
+.ro {
+  font-size: 15px;
+  color: white;
+  line-height: 19px;
+}
+.ro2 {
+  font-size: 9px;
+  color: rgb(189, 189, 219);
+  line-height: 14px;
+}
+.daniel {
+  color: white;
 }
 
-.one{
-
-    display: flex;
-    gap: 1rem;
-}
-.robert{
-    border: 3px solid hsl(265, 58%, 75%);;
-    margin-left: 1em;
-     border-radius: 3em;
-     height: 30px;
-      margin-top: 15px; 
-      font-size: 15px
-      
-      
-
-}
-.bayo{
-    background-color: hsl(263, 55%, 52%);
-    height: 15rem;
-    width: 30rem;
-    border-radius: 1em;
-    padding-left: 1rem;
-    padding-left: 1rem;
-    font-family: 'League Spartan', sans-serif;
-    
-    
-}
-.ro{
-
- font-size: 15px;   
- color: white;
- line-height: 19px;
-}
-.ro2{
-
-    font-size: 9px;
-    color: rgb(189, 189, 219);
-    line-height: 14px;
-
-}
-.daniel{
-
-    color: white;
+.da {
+  line-height: -6em;
 }
 
-.da{
-line-height: -6em;
-  
+.ry {
+  line-height: 2px;
+}
+.po {
+  color: rgb(148, 154, 212);
+  size-adjust: 20em;
 }
 
-.ry{
-    line-height: 2px;
-}
-.po{
-    color: rgb(148, 154, 212);
-    size-adjust: 20em;
-}
-
-.abram{
-    background-color:  hsl(219, 29%, 14%);
-    height: 15rem;
-    width: 30rem;
-    border-radius: 1em;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-family: 'League Spartan', sans-serif;
-
-   
+.abram {
+  background-color: hsl(219, 29%, 14%);
+  height: 19rem;
+  width: 30rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
+.daniel-jonathan {
+  display: flex;
+}
+
+.Jonathan-walters {
+  background: hsl(217, 19%, 35%);
+  width: 15rem;
+  max-height: 19rem;
+  border-radius: 0.5rem;
+  margin-left: 1.2rem;
+  padding: 1.5rem;
+  font-size: 13px;
+}
+
+.walters-image-name {
+  display: flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.Jonathan-walters img {
+  border: 3px solid hsl(265, 58%, 75%);
+  border-radius: 60rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.Jonathan-walters h2 {
+  color: hsl(0, 0%, 81%);
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.Jonathan-walters .jonathan-verified {
+  color: hsl(0, 0%, 50%);
+}
+
+.Jonathan-walters .jonathan-paragraph1 {
+  font-size: 20px;
+  width: 13rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.jonathan-paragraph2 {
+  font-size: 11px;
+  color: hsl(0, 0%, 81%);
+  max-width: 10rem;
+}
+.detail {
+  margin-top: 1rem;
+}
+
+.harmon-patrick {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.harmon {
+  background: hsl(0, 0%, 100%);
+  width: 15rem;
+  max-height: 19rem;
+  border-radius: 0.5rem;
+  margin-right: 1.2rem;
+  padding: 1.5rem;
+  font-size: 13px;
+}
+.harmon img {
+  border-radius: 60rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.harmon h2 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.harmon .harmon-verified {
+  color: hsl(217, 19%, 70%);
+}
+
+.harmon-image-name {
+  display: flex;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.harmon .harmon-paragraph1 {
+  font-size: 20px;
+  width: 13rem;
+  color: hsl(217, 19%, 35%);
+  max-width: 10rem;
+}
+
+.harmon .harmon-paragraph2 {
+  font-size: 11px;
+  color: hsl(217, 19%, 70%);
+  max-width: 10rem;
+}
