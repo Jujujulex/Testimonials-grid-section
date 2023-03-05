@@ -1,74 +1,108 @@
-.general{
-    
-  display: flex;   
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
 }
+
+body {
+  max-width: 1440px;
+  background-color: hsl(210, 46%, 95%);
+  height: 100hv;
+  width: fit-content;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.general {
+  display: flex;
+  margin: 5rem;
+  margin-bottom: 2rem;
+}
+.container {
+  max-width: 48rem;
+}
+/*styling for clifford*/
+.bayo {
+  background: url(./img/bg-pattern-quotation.svg), hsl(263, 55%, 52%);
+  background-repeat: no-repeat;
+  background-position: right 60px top 1px;
+  max-height: 17.5rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  font-size: 13px;
+  padding-bottom: 0.7rem;
+  padding-top: 0.1rem;
+}
+
 .one {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
 }
 .robert {
-  border: 3px solid hsl(265, 58%, 75%);
-  margin-left: 1em;
-  border-radius: 3em;
-  height: 30px;
-  margin-top: 15px;
-  font-size: 15px;
+  border: 2px solid hsl(265, 58%, 75%);
+  border-radius: 60rem;
+  height: 2rem;
+  margin-right: 1rem;
 }
-.bayo {
-  background-color: hsl(263, 55%, 52%);
-  max-height: 19rem;
-  width: 30rem;
-  border-radius: 1rem;
-  padding-left: 1rem;
-  padding-left: 1rem;
+.ry {
+  margin-top: 1rem;
 }
+
+.daniel {
+  color: hsl(0, 0%, 81%);
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
 .ro {
-  font-size: 15px;
-  color: white;
-  line-height: 19px;
+  font-size: 18.5px;
+  width: 28rem;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.1;
 }
 .ro2 {
-  font-size: 9px;
-  color: rgb(189, 189, 219);
-  line-height: 14px;
-}
-.daniel {
-  color: white;
+  font-size: 12px;
+  color: hsl(0, 0%, 81%);
+  max-width: 27rem;
 }
 
-.da {
-  line-height: -6em;
-}
-
-.ry {
-  line-height: 2px;
-}
 .po {
-  color: rgb(148, 154, 212);
-  size-adjust: 20em;
+  color: hsl(0, 0%, 50%);
 }
-
+/*styling for abram*/
 .abram {
   background-color: hsl(219, 29%, 14%);
-  height: 19rem;
+  max-height: 16.5rem;
   width: 30rem;
-  border-radius: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  font-size: 13px;
+  padding-bottom: 0.7rem;
+  padding-top: 0.1rem;
 }
 
 .daniel-jonathan {
   display: flex;
 }
-
+/*styling for jonathan*/
 .Jonathan-walters {
   background: hsl(217, 19%, 35%);
   width: 15rem;
-  max-height: 19rem;
+  max-height: 17.5rem;
   border-radius: 0.5rem;
   margin-left: 1.2rem;
   padding: 1.5rem;
   font-size: 13px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.1rem;
 }
 
 .walters-image-name {
@@ -81,7 +115,7 @@
 }
 
 .Jonathan-walters img {
-  border: 3px solid hsl(265, 58%, 75%);
+  border: 2px solid hsl(265, 58%, 75%);
   border-radius: 60rem;
   height: 2rem;
   margin-right: 1rem;
@@ -102,30 +136,34 @@
   font-size: 20px;
   width: 13rem;
   color: hsl(0, 0%, 100%);
+  line-height: 1.1;
 }
 
 .jonathan-paragraph2 {
   font-size: 11px;
   color: hsl(0, 0%, 81%);
-  max-width: 10rem;
+  width: 10rem;
 }
 .detail {
   margin-top: 1rem;
 }
-
+/*styling for harmon*/
 .harmon-patrick {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .harmon {
   background: hsl(0, 0%, 100%);
   width: 15rem;
-  max-height: 19rem;
+  max-height: 16.5rem;
   border-radius: 0.5rem;
   margin-right: 1.2rem;
   padding: 1.5rem;
   font-size: 13px;
+  padding-bottom: 0.5rem;
+  padding-top: 0.1rem;
+  box-shadow: 1px 1px 20px 1px hsl(0, 1%, 72%);
 }
 .harmon img {
   border-radius: 60rem;
@@ -155,32 +193,28 @@
 
 .harmon .harmon-paragraph1 {
   font-size: 20px;
-  width: 13rem;
   color: hsl(217, 19%, 35%);
-  max-width: 10rem;
+  width: 10rem;
+  line-height: 1.1;
 }
 
 .harmon .harmon-paragraph2 {
   font-size: 11px;
   color: hsl(217, 19%, 70%);
-  max-width: 10rem;
+  width: 10rem;
 }
-.container{
-   background-color: rgb(173, 209, 209);
-  display: flex;
-  flex-wrap: wrap; 
- 
-}
-.kira-white{
+/*styling for kira*/
+.kira-white {
   background: hsl(0, 0%, 100%);
-  width: 15rem;
-  max-height: 39rem;
+  width: 13.5rem;
+  max-height: 33.2rem;
   border-radius: 0.5rem;
-   margin-left: 1.2rem; 
   padding: 1.5rem;
-  font-size: 13px; 
+  font-size: 13px;
+  padding-top: 0.1rem;
+  box-shadow: 1px 1px 20px 1px hsl(0, 1%, 72%);
 }
-.kira-image-name{
+.kira-image-name {
   display: flex;
   align-items: center;
   -ms-flex-align: center;
@@ -188,31 +222,129 @@
   display: -webkit-box;
   display: -ms-flexbox;
 }
-.ki-img{
-  border: 3px solid hsl(265, 58%, 75%);
+.ki-img {
   border-radius: 60rem;
   height: 2rem;
   margin-right: 1rem;
 }
-.info{
+
+.info {
   margin-top: 1rem;
 }
-.kira-paragraph1{
-  font-size: 20px;
-  width: 13rem;
-  color: hsl(0, 2%, 19%);
-}
-.kira-paragraph2{
-  font-size: 9.78px;
-  color: hsl(217, 19%, 70%);
-  max-width: 10rem;
-}
-.kira-name{
-  color: hsl(0, 3%, 14%);
+.kira-name {
+  color: hsl(217, 19%, 35%);
   font-size: 1rem;
   padding: 0;
   margin: 0;
 }
-.kira-verified{
-  color: hsl(0, 0%, 50%);
+.kira-verified {
+  color: hsl(217, 19%, 70%);
+}
+
+.kira-paragraph1 {
+  font-size: 20px;
+  color: hsl(217, 19%, 35%);
+  line-height: 1.1;
+}
+.kira-paragraph2 {
+  font-size: 11px;
+  color: hsl(217, 19%, 70%);
+  width: 10.3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: fit-content;
+  }
+
+  .general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1rem;
+  }
+
+  .daniel-jonathan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1rem;
+  }
+
+  .bayo {
+    max-height: 40rem;
+    max-width: 310px;
+  }
+  .bayo .ro {
+    width: 15rem;
+  }
+  .bayo .ro2 {
+    width: 14rem;
+  }
+  .abram {
+    max-height: 40rem;
+    max-width: 308px;
+  }
+
+  .abram .ro {
+    width: 15rem;
+  }
+
+  .abram .ro2 {
+    width: 15rem;
+  }
+
+  .Jonathan-walters {
+    width: 18.5rem;
+    margin-left: 10px;
+    margin-right: 30px;
+    max-height: 13rem;
+  }
+  .Jonathan-walters .jonathan-paragraph1,
+  .jonathan-paragraph2 {
+    width: 15rem;
+  }
+
+  .harmon-patrick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 1rem;
+  }
+
+  .harmon {
+    width: 18.5rem;
+    margin-left: 10px;
+    margin-right: 30px;
+    max-height: 13rem;
+  }
+
+  .harmon .harmon-paragraph1 {
+    width: 15rem;
+  }
+
+  .harmon .harmon-paragraph2 {
+    width: 14rem;
+  }
+
+  .kira-white {
+    width: 19rem;
+    margin-left: 10px;
+    margin-right: 30px;
+    max-height: 28rem;
+  }
+  .kira-paragraph1 {
+    width: 17rem;
+  }
+
+  .kira-paragraph2 {
+    width: 13.8rem;
+  }
 }
